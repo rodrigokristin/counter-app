@@ -63,6 +63,7 @@ body {
   cursor: pointer;
   background: none;
   border-radius: 50%;
+  touch-action: manipulation;
   box-shadow: 0 0 10px 2px #00000F;
 }
 
@@ -87,6 +88,7 @@ body {
   border-radius: 30px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  touch-action: manipulation;
   box-shadow: 0 0 1px 1px #00000F;
   background: linear-gradient(180deg, rgba(31,22,32,1) 0%,
                                       rgba(31,22,32,1) 35%,
